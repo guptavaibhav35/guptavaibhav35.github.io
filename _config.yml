@@ -9,10 +9,10 @@ version: 2
 name: Vaibhav Gupta
 title: Data Scientist
 email: vaibhav.gupta@vanderbilt.edu
-website: www.github.com/guptavaibhav35/guptavaibhav35.github.io
+website: www.guptavaibhav35.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username: facespics
@@ -21,13 +21,14 @@ github_username: sproogen
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
+# instagram_username: jameswgrant
 linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
+google_scholar:
 
 # Additional icon links
 additional_links:
@@ -48,7 +49,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, My name is Vaibhav Gupta, and I am a data scientist who thrives on turning data into impactful solutions. Driven by boundless curiosity and a love for innovation, I immerse myself in the intricate worlds of AI, data science, machine learning, data analysis, and cutting-edge technologies like Generative AI and large language models (LLMs). My academic journey at Vanderbilt University has allowed me to dive deep into these fields, where I’m not just exploring the trends—I’m helping to shape them. 
+  My experience spans a variety of domains, from finance to education to healthcare. I’ve crafted AI models that optimize financial strategies, developed advanced audio analysis tools that enhance classroom learning, engineered systems for medical image analysis, and performed data analysis that uncovers actionable insights. My work with Generative AI and LLMs, including building sophisticated models that generate human-like text and improve decision-making processes, is a key part of how I approach challenges. Whether it's constructing robust data pipelines, fine-tuning models with Python, PyTorch, and TensorFlow, or deploying solutions on cloud platforms like AWS, GCP, and Azure, I approach each project with a joyful blend of creativity and precision.
+  Every line of code I write, every dataset I analyze, and every model I fine-tune is a step toward expanding the frontiers of technology. This work isn’t just my career—it’s my joyful contribution to a smarter, more connected world. Explore my portfolio to see how I merge cutting-edge technology with thoughtful execution, transforming complex challenges across diverse domains into elegant, impactful solutions.
 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
