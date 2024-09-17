@@ -65,11 +65,37 @@ content:
         caption: 2015 - 2019
         sub_title: Bachelor's of Technology in Computer Science
         description: | # this will include new lines to allow paragraphs
-          **Coursework:**
+          **Coursework:** TBA
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Data Scientist
+        link: https://peabody.vanderbilt.edu/academics/departments/special-education/
+        link_text: Lab Website
+        sub_title: Nissan Motor Corporation
+        caption: August 2024 - Present
+        quote: >
+          Revolutionizing classroom analysis by building advanced audio diarization tools using Deep Denoising Autoencoders and wav2vec2, alongside cutting-edge pipelines like Whisper and LangChain, achieving game-changing 92% segmentation and 98% transcription accuracy to redefine teaching insights.
+        description: | # this will include new lines to allow paragraphs
+          - Developed an advanced audio diarization application using Deep Denoising Autoencoders and huggingface wav2vec2 transformers to tokenize and embed classroom audio, segmenting student and teacher voices from the classroom audio with a 92% accuracy.
+
+          - Deployed a pipeline using LangChain to transcribe segmented teacher audio using Whisper with 98% accuracy, and used DistilBERT to categorize teaching instructions, offering insights into teaching methods and their impact on student learning.
+
+      - layout: left
+        title: Vanderbilt Innovation Fellow
+        link: https://peabody.vanderbilt.edu/academics/departments/special-education/
+        link_text: Lab Website
+        sub_title: The Wond'ry
+        caption: August 2024 - Present
+        quote: >
+          Revolutionizing classroom analysis by building advanced audio diarization tools using Deep Denoising Autoencoders and wav2vec2, alongside cutting-edge pipelines like Whisper and LangChain, achieving game-changing 92% segmentation and 98% transcription accuracy to redefine teaching insights.
+        description: | # this will include new lines to allow paragraphs
+          - Developed an advanced audio diarization application using Deep Denoising Autoencoders and huggingface wav2vec2 transformers to tokenize and embed classroom audio, segmenting student and teacher voices from the classroom audio with a 92% accuracy.
+
+          - Deployed a pipeline using LangChain to transcribe segmented teacher audio using Whisper with 98% accuracy, and used DistilBERT to categorize teaching instructions, offering insights into teaching methods and their impact on student learning.
+
       - layout: left
         title: Data Science Intern
         link: https://peabody.vanderbilt.edu/academics/departments/special-education/
@@ -100,7 +126,133 @@ content:
 
           - Developed an actionable insight generator using Bidirectional Auto-Regressive Transformers and Sentence-BERT, to streamline daily market news and meeting transcripts into three key actionable recommendations for fund managers to perform as a daily task.
 
+      - layout: left
+        title: Research Assistant
+        link: https://www.jamesbisbee.com/research
+        link_text: Lab Website
+        sub_title: Data Science Institute, Vanderbilt University
+        caption: November 2023 - April 2024
+        quote: >
+          Shaping insights on political polarization by leveraging Selenium and YouTube Data API to analyze watch histories, applying BERT for video classification and Markov chains to uncover diverse recommendation patterns, and achieving 88% predictive accuracy in cross-political recommendations using a Random Forest model with Scikit-learn.
+        description: | # this will include new lines to allow paragraphs
+          - Employed Selenium and YouTube Data API to collect YouTube watch histories via user surveys, processed data with Pandas, and conducted correlation analysis to identify viewing pattern based on political polarization, and visualized results using Tableau.
+
+          - Applied BERT for classifying Youtube videos by political orientation, applied Chi-square tests and Markov chains to analyze recommendation patterns, concluding that YouTube's algorithm promotes diverse perspectives rather than reinforcing bias.
+
+          - Devised a regression model using Random Forest Regression with feature selection and hyperparameter tuning in Scikit-learn, leveraging YouTube watch history data to predict cross-political recommendations, achieving a predictive accuracy of 88%.
+
+      - layout: left
+        title: Teaching Assistant
+        link: https://www.vanderbilt.edu/datascience/
+        link_text: Program Website
+        sub_title: Data Science Institute, Vanderbilt University
+        caption: August 2023 - April 2024
+        quote: >
+          Enhanced course effectiveness by collaborating with the instructor to develop engaging materials and clear grading criteria, while providing personalized support through office hours; analyzed student performance data to identify curriculum improvements, driving alignment with learning objectives.
+        description: | # this will include new lines to allow paragraphs
+          - Collaborated closely with the course instructor to develop compelling course materials and establish clear grading criteria. Conducted regular office hours to offer individualized assistance, focusing on code debugging and homework guidance.
+
+          - Played a pivotal role in evaluating student performance data from assignments. This analysis was crucial in pinpointing specific areas where the course curriculum could be enhanced to better serve the learning objectives.
+
+      - layout: left
+        title: Data Engineer and Analyst
+        link: https://www.jamesbisbee.com/research
+        link_text: Lab Website
+        sub_title: Tata Consultancy Services
+        caption: November 2023 - April 2024
+        quote: >
+          Driving a 30% reduction in latency by engineering real-time data migration pipelines with Apache Kafka and AWS Glue, securing data with AES-256 encryption and SHA-256 validation, and boosting sales by 12% per category through customer segmentation and product recommendations using Neo4j, RFM analysis, and the Apriori algorithm.
+        description: | # this will include new lines to allow paragraphs
+          - Engineered robust data migration pipelines leveraging Apache Kafka for real-time data streaming and AWS Glue for ETL processes, enabling a smooth transition from a SQL database to Neo4j using Cypher queries and APOC procedures, reducing latency by 30%.
+
+          - Implemented rigorous data validation and integrity checks by using SHA-256 hash comparison for data consistency, Apache Avro for schema validation and data serialization, and used AES-256 data encryption to protect sensitive information during migration.
+
+          - Utilized Neo4j with Cypher queries for data extraction, applied RFM Analysis with Scikit-learn for customer segmentation based on   buying patterns, and used the Apriori Algorithm for product recommendations, driving a 12% increase in sales per product category.
+
+      - layout: left
+        title: Data Science Intern
+        link: https://www.jamesbisbee.com/research
+        link_text: Lab Website
+        sub_title: Tata Consultancy Services
+        caption: November 2023 - April 2024
+        quote: >
+          Employed Selenium and YouTube Data API to analyze political polarization in watch history, utilizing BERT for video classification and Markov chains to reveal diverse recommendation patterns, while building a Random Forest regression model with 88% predictive accuracy for cross-political suggestions.
+        description: | # this will include new lines to allow paragraphs
+          - Employed Selenium and YouTube Data API to collect YouTube watch histories via user surveys, processed data with Pandas, and conducted correlation analysis to identify viewing pattern based on political polarization, and visualized results using Tableau.
+
+          - Applied BERT for classifying Youtube videos by political orientation, applied Chi-square tests and Markov chains to analyze recommendation patterns, concluding that YouTube's algorithm promotes diverse perspectives rather than reinforcing bias.
+
+          - Devised a regression model using Random Forest Regression with feature selection and hyperparameter tuning in Scikit-learn, leveraging YouTube watch history data to predict cross-political recommendations, achieving a predictive accuracy of 88%.
+
   - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Patents # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Smart shoes for navigation of blind people. [GRANTED]
+        link: https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus
+        link_text: Link -> Application Number -> 201811039745
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+      - layout: top-middle
+        title: Intelligent alcohol sensing and alerting/notifying system and method thereof. [APPLIED]
+        link: https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus
+        link_text: Link -> Application Number -> 201811039744
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+      - layout: top-middle
+        title: System for cataract detection and method thereof. [APPLIED]
+        link: https://iprsearch.ipindia.gov.in/PublicSearch/PublicationSearch/ApplicationStatus
+        link_text: Link -> Application Number -> 201811039743
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Publications # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Super awesome project
+        link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+        description: | # this will include new lines to allow paragraphs
+          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+
+  - title: Certifications # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
