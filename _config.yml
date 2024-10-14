@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Vaibhav Gupta
-title: Data Scientist
+title: Data Scientist at Nissan USA
 email: vaibhav.gupta@vanderbilt.edu
 website: www.guptavaibhav35.github.io
 
@@ -15,14 +15,14 @@ website: www.guptavaibhav35.github.io
 darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username: sproogen
+twitter_username: guptavaibhav35
+github_username: guptavaibhav35
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
 # instagram_username: jameswgrant
-linkedin_username: jameswgrant
+linkedin_username: guptavaibhav35
 # xing_username: jekyll
 # pinterest_username: jekyll
 # youtube_username: globalmtb
@@ -31,10 +31,10 @@ linkedin_username: jameswgrant
 # google_scholar:
 
 # Additional icon links
-additional_links:
-  - title: itsgoingto.be
-    icon: fas fa-globe
-    url: https://www.itsgoingto.be
+# additional_links:
+#   - title: itsgoingto.be
+#     icon: fas fa-globe
+#     url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -55,10 +55,10 @@ content:
     content:
       - layout: left
         title: Vanderbilt University
-        caption: 2023 - 2025
+        caption: August 2023 - May 2025 [Expected]
         sub_title: Masters of Science in Computer Science
         description: | # this will include new lines to allow paragraphs
-          **Coursework:** Natural language processing, Deep learning, Social network analysis, Foundations of ML, Advanced AI, Reinforcement learning, Cloud Computing and Open Source Programming in Medical Image Analysis.
+          **Coursework:** Social Network Analysis, Open Source Programming in Medical Image Analysis, Foundations of Machine Learning, Natural Language Processing, Deep Learning, Augumented Reality, Advanced Machine Learning, Reinforcement Learning and Cloud Computing.
 
       - layout: left
         title: Graphic Era Deemed to be University
